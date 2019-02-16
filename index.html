@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Stelmakh Yaroslav</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="gallery.js"></script>
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+</head>
+<body class="container">
+    <header class="header">
+      <div class="header-contact">
+        <span class="email">megatashcer@gmail.com</span>
+        <span class="header-social">
+          <a href="https://www.facebook.com/profile.php?id=100008791565007&fref=pb&hc_location=profile_browser" <i class="fab fa-facebook-square fa-2x" target="_blank"></i></a>
+          <a href="https://www.instagram.com/stelmakh_yaroslav/" target="_blank" <i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://www.youtube.com/channel/UCi5SE_fEXje2y1pUKgNRyoQ/featured" target="_blank" <i class="fab fa-youtube fa-2x"></i></a>
+        </span>
+      </div>
+      <hr>
+      <div class="nav" id="nav">
+        <h1 class="logo"><a href="#home">Stelmakh Yaroslav</a></h1>
+          <nav class="nav_bar">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div id="home" class="about">
+      </div>
+      <div id="about" class="about_info">
+        <div>
+          <h1>Hello!</h1>
+          <span> My name is Yaroslav.I'm fashion model, actor and bad student.
+            Lil man and spicy boy</span>
+      </div>
+      </div>
+      <div id="portfolio" class="gallery">
+        <div>
+            <img src="./portfolio/18.jpg" />
+            <img src="./portfolio/1.jpg" />
+            <img src="./portfolio/8.jpg" />
+            <img src="./portfolio/5.jpg" />
+            <img src="./portfolio/9.jpg" />
+            <img src="./portfolio/7.jpg" />
+        </div>
+      </div>
+      <div id="contact" class="contact">
+        <div>
+        <figure class="contact_img">
+          <img src="./portfolio/26.jpg">
+        </figure>
+        <form class="contact-form">
+          <legend class="logo"> Contact me </legend>
+          <h4 class="email">megatashcer@gmail.com</h4>
+          <span class="social">
+              <a href="https://www.facebook.com/profile.php?id=100008791565007&fref=pb&hc_location=profile_browser" <i class="fab fa-facebook-square" target="_blank"></i></a>
+              <a href="https://www.instagram.com/stelmakh_yaroslav/" target="_blank" <i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCi5SE_fEXje2y1pUKgNRyoQ/featured" target="_blank" <i class="fab fa-youtube"></i></a>
+          </span>
+          <fieldset>
+            <input class="form_input" placeholder="Name" type="text" pattern="^[A-Za-zА-Яа-яіїєІЇЄЁё ]{2,30}$" title="Not more then 30 letters" required>
+            <input class="form_input" placeholder="Email" type="email" pattern="^[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$" title="Must contain at least one dot after the symbol '@'" required>
+          </fieldset>
+          <fieldset>
+            <input class="form_input" placeholder="Subject" type="text" pattern="^[A-Za-zА-Яа-яіїєІЇЄЁё.,?! ]{2,30}$" title="Not more then 30 letters" required>
+          </fieldset>
+          <fieldset>
+            <textarea class="form_input" placeholder="Message" cols="100" rows="5" type="text"></textarea>
+          </fieldset>
+          <fieldset>
+            <input class="button" type="submit" value="Send">
+          </fieldset>
+        </form>
+        </div>
+      </div>
+      <div class="bro">
+        <div>
+          <img src="./portfolio/28.jpg" />
+        </div>
+        <div>
+          <img src="./portfolio/29.jpg" />
+      </div>
+    </main>
+    <footer class="footer">
+      <span>©2019 by Yaroslav Stelmakh. Created by
+        <a href="https://github.com/abalena">Olena Abakumenko</a>
+      </span>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "stelmakh_yaroslav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gallery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-photo-gallery": "^6.3.0"
+  }
+}
